@@ -1,0 +1,1 @@
+﻿package app {		public class IChing {		public function IChing() {			// constructor code					}				public function cast(numOfLine:uint = 6):String {			var hex:String = new String();			for(var i; i<=6; i++) {				hex += Math.round(Math.random()*3)							}					}	}	}
